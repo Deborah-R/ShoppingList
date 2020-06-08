@@ -79,12 +79,11 @@ function createListElement() {
     containerItem.classList.add('container');
     var li = document.createElement('li');
     li.appendChild(document.createTextNode(input.value));
-    ul.appendChild(containerItem);
+    ul.prepend(containerItem);
     containerItem.appendChild(li);
+    input.value = "";
     createDeleteButton();
 }
-
-
 
 function addListAfterClick() {
 
@@ -104,6 +103,7 @@ function addListAfterKeypress(event) {
 function addImage() {
     var image = document.createElement('img');
     image.setAttribute('src', 'img/httpsicons8.com.png');
+    image.setAttribute('alt', 'astronaut on the moon doing grocery');
     section.appendChild(image);
 }
 

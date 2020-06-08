@@ -59,6 +59,7 @@ input {
     padding-left: 2%;
     border-color: #7547ccb8;
     margin-right: 10px;
+    outline: none;
 }
 
 
@@ -129,6 +130,11 @@ li {
     list-style: none;
     padding: 0.8rem;
     margin: 0.5rem;
+    transition: all 0.5s;
+}
+
+li:hover {
+    background-color: white;
 }
 
 .span-done {
