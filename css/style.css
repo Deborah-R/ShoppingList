@@ -180,6 +180,12 @@ img {
     section {
         width: 95vw;
     }
+    li {
+        width: 65%;
+    }
+    .btn-shine {
+        font-size: 1.8rem;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -187,7 +193,10 @@ img {
         display: none;
     }
     li {
-        width: 70%;
+        width: 80%;
+    }
+    input {
+        width: 65%;
     }
     section {
         border-radius: 0;
