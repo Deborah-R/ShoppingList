@@ -189,4 +189,7 @@ img {
     li {
         width: 70%;
     }
+    section {
+        border-radius: 0;
+    }
 }
